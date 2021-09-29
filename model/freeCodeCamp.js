@@ -13,7 +13,6 @@ class FreeCodeCamp {
             arr2.forEach((itemArr2, index) => {
                 if (itemArr1[1] === itemArr2[1]) {
                     itemArr1[0] += itemArr2[0];
-                    Array.prototype.splice()
                     arr2.splice(index, 1);
                 }
             })
